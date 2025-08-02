@@ -1,0 +1,31 @@
+@server = http://localhost:5000
+
+### get all tasks
+GET {{server}}/api/tasks
+
+### get task by id
+GET {{server}}/api/tasks/6
+
+### create task
+POST {{server}}/api/tasks
+Content-Type: application/json
+
+{
+    "task_detail": "Description of the new task",
+    "task_status": "pending"
+}
+
+### update task
+PUT {{server}}/api/tasks/6
+Content-Type: application/json
+
+{
+    "task_detail": "Updated description of the task",
+    "task_status": "completed"
+}
+
+### delete task
+DELETE {{server}}/api/tasks/6
+
+### get tasks by status
+GET {{server}}/api/tasks/stats
