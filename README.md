@@ -2,7 +2,7 @@
 
 This is a full-stack Todo application with a React frontend and Python backend.
 
-## Server Setup
+## Steps to be followed if server repository is cloned
 
 1. **Clone the UI repository**
    ```bash
@@ -32,7 +32,7 @@ This is a full-stack Todo application with a React frontend and Python backend.
    python api.py --port 5000 --build-dir dist
    ```
 
-## User Interface Setup
+## Steps to be followed if user interface repository is cloned
 
 1. **Clone the server and build the UI**
    ```bash
