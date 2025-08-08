@@ -8,7 +8,7 @@ import os
 import time
 
 # File path for the CSV
-file_path = "/Users/titu/sources/pyworkspace/projectAmat/synthetic_team_data.csv"
+file_path = "./synthetic_team_data.csv"
 column_names = ['close_notes', 'description', 'u_resolution_tier_2']
 
 # Load environment variables
